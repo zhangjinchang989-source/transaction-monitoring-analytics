@@ -73,7 +73,7 @@ Capacity planning: protect SLA by allocating more analyst time to Medium/High se
 ## Screenshots
 
 
-![Rule performance](/Users/jinchangzhang/Desktop/screenshots:rule_performance.png)
-![Geo hotspots](/Users/jinchangzhang/Desktop/screenshots:geo_hotspots.png)
-![Case outcomes](/Users/jinchangzhang/Desktop/screenshots:case_outcomes.png)
-![SLA by severity](/Users/jinchangzhang/Desktop/screenshots:sla_by_severity.png)
+![Rule performance](screenshots:rule_performance.png)
+![Geo hotspots](screenshots:geo_hotspots.png)
+![Case outcomes](screenshots:case_outcomes.png)
+![SLA by severity](screenshots:sla_by_severity.png)
