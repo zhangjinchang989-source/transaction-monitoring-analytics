@@ -1,6 +1,21 @@
 Project Case Study
 Project Title
-Transaction Monitoring Analytics (PostgreSQL): Alerts → Cases → Outcomes
+
+## Transaction Monitoring Analytics (PostgreSQL / SQL)
+End-to-end AML-style workflow: transactions → alerts → rolling 30-day cases → KPI views → insights.
+
+## Results Snapshot
+- 60,000 transactions → 3,674 alerts → 2,315 cases (30-day rolling)
+- Case outcomes: No action 1818 | Escalated 474 | SAR filed 23
+- SLA: Low 12.9h | Medium 21.75h | High 31.49h
+
+## How to Run
+1) Create tables: run `sql/01_schema.sql`
+2) Import CSVs into PostgreSQL tables
+3) Case assignment: run `sql/02_case_assignment_rolling_30d.sql`
+4) KPI views: run `sql/03_views.sql`
+5) Example analysis queries: run `sql/04_example_queries.sql`
+
 Problem
 Transaction monitoring produces high volumes of alerts, but investigation teams need to understand:
 which rules generate the most workload,
@@ -72,6 +87,7 @@ Capacity planning: protect SLA by allocating more analyst time to Medium/High se
 
 ## Screenshots
 
+> Click images to zoom.
 
 ![Rule performance](screenshots/screenshots:rule_performance.png)
 ![Geo hotspots](screenshots/screenshots:geo_hotspots.png)
