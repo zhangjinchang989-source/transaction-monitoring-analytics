@@ -1,11 +1,10 @@
 .DS_Store
+.Rhistory
 *.log
 *.tmp
 
-# Optional: don’t upload raw data unless you want to
 *.csv
 *.zip
 
-# If you ever export local DB files
 *.db
 *.sqlite
